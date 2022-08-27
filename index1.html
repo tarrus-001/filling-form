@@ -1,0 +1,213 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Webpage Design</title>
+     <style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	margin-top: 40px;
+}
+
+.registration{
+	width: 800px;
+	background-color: rgb(0,0,0,6);
+	margin: auto;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.main{
+	background-color: rgb(0,0,0,0.5);
+	width: 800px;
+	margin: auto;
+
+}
+form{
+	padding: 10px;
+}
+#name{
+	width: 100%;
+	height: 100px;
+}
+.name{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color:white;
+	font-size: 18px;
+	font-weight: 600; 
+}
+.firstname{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+
+
+}
+.lastname{
+	position: relative;
+	left: 417px;
+	top: -80px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size:16px;
+
+}
+.firstlabel{
+	position: relative;
+	color: black;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 203px;
+	top: -30px;
+}
+.lastlabel{
+	position: relative;
+	color: black;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 500px;
+	top: -60px;
+
+}
+.company{
+  position:relative; 
+  left:200px;
+	top:-37px;
+	line-height: 40px;
+	width: 532px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+
+}
+.email{
+  position:relative; 
+  left:200px;
+	   top:-37px;
+	   line-height: 40px;
+	   width: 532px;
+	   border-radius: 6px;
+	   padding: 0 22px;
+	   font-size: 16px;
+	   color: #555;
+
+}
+.code{
+	 position:relative; 
+  left:200px;
+	   top:-37px;
+	   line-height: 40px;
+	   width: 95px;
+	   border-radius: 6px;
+	   padding: 0 22px;
+	   font-size: 16px;
+	   color: #555;
+}
+.phone_number{
+	position: relative;
+	color: #5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+	left:100px;
+	top: 50px;
+}
+
+.number{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 280px;
+	border-radius: 6px
+	padding:0 22px;
+	font-size: 16px;
+	color:#555;
+      
+}
+
+.area_code{
+	position: relative;
+	color: #5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+	left:100px;
+	top: 10px;
+
+}
+
+	
+.phone_number{
+position: relative;
+	color: #5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+	left:45px;
+	top: 10px;
+}
+
+
+</style>
+
+
+
+ </head>
+ <body>
+ 	<div class="registration" ><h1>Registration Form</h1></div>
+ 	<div class="main">
+ 		<form>
+ 		<div id="name">
+ 	<h2 class="name">Name</h2>	
+ 	<input class="firstname" type="text" name="First_name"></br>
+ 	<label class="firstlabel">firstname</label>
+ 	<input class="lastname" type="text" name="Last_name"></br>
+ 	<label class="lastlabel">lastname</label>
+    </div>
+ 	<h2 class="name">company</h2>
+    <input  class="company" type="text" name="Company">
+    <h2 class="name">email</h2>
+    <input  class="email" type="text" name="email">
+    <h2 class="name">phone</h2>
+    <input  class="code" type="text" name="area_code">
+    <label class="area_code">Area code</label>
+    <input  class="number" type="text" name="phone">
+    <label class="phone_number">phone number</label>
+
+
+     <h2 class="name">subject</h2>
+    <select class="option" name="name">
+    <option disabled="disabled" selected="selected">---choose option</option>
+    <option>subject 1</option>
+    <option>subject 2</option>
+    <option>subject 3</option>
+
+</select>
+
+<h2 id="student">are you a beginner?</h2>
+
+<label class="radio">
+	<input class="radio-one" type="radio" checked="checked" name="">
+	<span class="checkmark"></span>
+	yes
+	<input class="radio-two" type="radio" checked="checked" name="">
+	<span class="checkmark"></span>
+	no
+</label>
+<button type="submit">register</button>
+</form>
+</div>
+ </body>
+ </html>	
